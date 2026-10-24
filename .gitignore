@@ -1,0 +1,76 @@
+﻿# ──────────────────────────────────────────────
+# .NET / C# build outputs
+# ──────────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vs/
+
+# ──────────────────────────────────────────────
+# NuGet
+# ──────────────────────────────────────────────
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ──────────────────────────────────────────────
+# Publish & deployment outputs
+# ──────────────────────────────────────────────
+publish/
+out/
+
+# ──────────────────────────────────────────────
+# Generated resume output files
+# ──────────────────────────────────────────────
+output/
+
+# ──────────────────────────────────────────────
+# Local input files (personal data — keep private)
+# ──────────────────────────────────────────────
+resume.pdf
+Resume.pdf
+master.json
+jobs.xlsx
+extracted_pdf_text.txt
+
+# ──────────────────────────────────────────────
+# Playwright browser binaries
+# ──────────────────────────────────────────────
+.playwright/
+playwright-browsers/
+
+# ──────────────────────────────────────────────
+# OS generated files
+# ──────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ──────────────────────────────────────────────
+# IDEs & editors
+# ──────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.code-workspace
+
+# ──────────────────────────────────────────────
+# Logs & temp files
+# ──────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
